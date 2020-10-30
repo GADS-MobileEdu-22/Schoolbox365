@@ -63,11 +63,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openOtherDashboards() {
-        binding.openAdminBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(this, AdminDashBoardActivity.class);
-            startActivity(intent);
-        });
-
         binding.openStudentsBtn.setOnClickListener(view -> {
             Intent intent = new Intent(this, StudentsDashBoardActivity.class);
             startActivity(intent);

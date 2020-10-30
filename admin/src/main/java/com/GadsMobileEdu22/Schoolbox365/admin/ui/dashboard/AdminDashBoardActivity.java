@@ -28,7 +28,7 @@ public class AdminDashBoardActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                DashboardFragment.class, null).commit();
+                DashboardFragment.class, null).addToBackStack(null).commit();
         binding.bottomNavView.setSelectedItemId(R.id.nav_home);
         binding.bottomNavView.setOnNavigationItemSelectedListener(navListener);
     }
@@ -37,7 +37,7 @@ public class AdminDashBoardActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.nav_search) {
             getSupportFragmentManager().beginTransaction().replace(
                     R.id.fragment_container, SearchFragment.class, null)
-                    .commit();
+                    .addToBackStack(null).commit();
         } else if (item.getItemId() == R.id.nav_home) {
                 getSupportFragmentManager().beginTransaction().replace(
                         R.id.fragment_container, DashboardFragment.class, null)

@@ -29,10 +29,8 @@ class NewsAddFragment : Fragment() {
             val news = News(title = binding.etTittle.text.toString(),
                 description = binding.etDesc.text.toString())
 
-        viewModel.uploadNews(news)
-
-//            TODO: Add close to close this fragment once the button is clicked.
-//            activity?.supportFragmentManager?.popBackStack()
+            viewModel.uploadNews(news)
+            activity?.onBackPressed()
         })
 
     }
