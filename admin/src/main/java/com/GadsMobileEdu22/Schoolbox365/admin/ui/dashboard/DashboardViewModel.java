@@ -25,9 +25,9 @@ public class DashboardViewModel extends ViewModel {
         ArrayList<NewsItem> items = new ArrayList<>();
 //        TODO: Add news items received from firebase to the 'items' ArrayList.
 //        Item id represents which dot will be selected. Only 5 dots are available (i.e. IDs 1-5)
-        items.add(new NewsItem(1, R.drawable.onboard_admin, "Dummy News Item",
+        items.add(new NewsItem(1, R.drawable.ic_notifications, "Dummy News Item",
                 "Further dummy text."));
-        items.add(new NewsItem(2, R.drawable.onboard_admin, "Second Dummy News Item",
+        items.add(new NewsItem(2, R.drawable.ic_notifications, "Second Dummy News Item",
                 "Further dummy text."));
 
         return items;

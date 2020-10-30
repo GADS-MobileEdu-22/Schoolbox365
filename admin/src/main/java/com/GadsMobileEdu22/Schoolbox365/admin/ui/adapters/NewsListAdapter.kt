@@ -34,7 +34,7 @@ class NewsListAdapter : ListAdapter<News, NewsListAdapter.NewsViewHolder>(NewsDi
     class NewsViewHolder(private val binding: NewsListItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(news: News) = with(binding) {
-            textTittle.text = news.tittle
+            textTittle.text = news.title
             textDescrption.text = news.description
             Glide.with(binding.root).load(news.image).placeholder(R.drawable.ic_notifications).into(imageNews)
 

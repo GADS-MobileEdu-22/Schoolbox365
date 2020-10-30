@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/onboard_admin" />
+        app:srcCompat="@drawable/ic_notifications" />
 
     <TextView
         android:id="@+id/news_heading_tv"

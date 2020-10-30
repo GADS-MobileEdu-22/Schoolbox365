@@ -21,6 +21,6 @@ enum class AuthenticationProgress {
 data class News(
         var id: String = "",
         var image: String = "",
-        var tittle: String = "",
+        var title: String = "",
         var description: String = "")
 

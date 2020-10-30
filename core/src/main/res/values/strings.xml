@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    Admin module-->
     <string name="app_name">admin</string>
     <string name="create_new_user_title">Create New User</string>
     <string name="new_user_fill_out_form_subhead">Please fill out the form below</string>
@@ -20,13 +19,17 @@
     <string name="dashboard_send_announcement">News</string>
     <string name="dashboard_card_users">Users</string>
     <string name="dashboard_card_resources">Resources</string>
+    <string name="dashboard_card_lectures">Lectures</string>
+    <string name="dashboard_card_assignments">Assignments</string>
     <string name="menu_func_coming_soon">Menu Functionality Coming Soon</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password">Password</string>
-
-<!--    Students Module-->
-    <string name="dashboard_card_lectures">Lectures</string>
-    <string name="dashboard_card_assignments">Assignments</string>
-
+    <string name="item_illustrations">item illustrations</string>
+    <string name="user_profile_image">User profile image</string>
+    <string name="add_news_button">Add news button</string>
+    <string name="news_image">News Image</string>
+    <string name="tittle">Title</string>
+    <string name="save_news">Save News</string>
+    <string name="description">Description</string>
 </resources>
