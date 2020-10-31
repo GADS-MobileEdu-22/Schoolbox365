@@ -28,7 +28,7 @@ public class OnBoardingViewModel extends ViewModel {
                 R.drawable.onboard_lecturers, R.drawable.dot_indicator, R.drawable.dot_indicator_filled,
                 R.drawable.dot_indicator));
         screens.add(2, new OnboardingScreen(R.string.onboard_screen3_title, R.string.onboard_screen3_message,
-                R.drawable.onboard_admin, R.drawable.dot_indicator, R.drawable.dot_indicator,
+                R.drawable.ic_notifications, R.drawable.dot_indicator, R.drawable.dot_indicator,
                 R.drawable.dot_indicator_filled));
 
         screenList.setValue(screens);

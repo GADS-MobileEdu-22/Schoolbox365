@@ -1,4 +1,4 @@
-package com.GadsMobileEdu22.School365.admin.ui.dashboard;
+package com.GadsMobileEdu22.Schoolbox365.students.ui.dashboard;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.GadsMobileEdu22.Schoolbox365.admin.R;
-import com.GadsMobileEdu22.Schoolbox365.admin.databinding.DashboardNewsItemBinding;
+import com.GadsMobileEdu22.Schoolbox365.students.R;
+import com.GadsMobileEdu22.Schoolbox365.students.databinding.DashboardNewsItemBinding;
 
 import java.util.List;
 
@@ -52,6 +52,7 @@ public class NewsPagerAdapter extends RecyclerView.Adapter<NewsPagerAdapter.MyPa
         public MyPagerViewHolder(@NonNull View itemView, OnNewsClickListener onNewsClickListener) {
             super(itemView);
             mBinding = DashboardNewsItemBinding.bind(itemView);
+
 
             newsIllustration = mBinding.newsIllusImgvw;
             newsHeading = mBinding.newsHeadingTv;
